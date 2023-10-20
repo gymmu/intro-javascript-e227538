@@ -34,3 +34,14 @@ function resetCounter(){
   num = 0
   TextAuf0Stellen.textContent = num
 }
+
+
+function writeText(){
+  const TextSchreiben = document.querySelector("#input")
+  const inputText = TextSchreiben.value
+  const outputElement = document.querySelector("#output")  
+  const outputText = outputElement.textContent
+ 
+  outputElement.textContent = outputText + "\n" + inputText
+
+}
