@@ -18,3 +18,11 @@ function incrementCounter(){
   num = num + 1
   TextHochzählen.textContent = num
 }
+
+
+function decrementCounter(){
+  const TextAbzählen = document.querySelector("#counter")
+  let num = parseInt(TextAbzählen.textContent)
+  num = num - 1
+  TextAbzählen.textContent = num
+}
