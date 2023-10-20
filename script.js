@@ -26,3 +26,11 @@ function decrementCounter(){
   num = num - 1
   TextAbzählen.textContent = num
 }
+
+
+function resetCounter(){
+  const TextAuf0Stellen = document.querySelector("#counter")
+  let num = parseInt(TextAuf0Stellen.textContent)
+  num = 0
+  TextAuf0Stellen.textContent = num
+}
