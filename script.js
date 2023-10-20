@@ -45,3 +45,12 @@ function writeText(){
   outputElement.textContent = outputText + "\n" + inputText
 
 }
+
+function addImage(){
+  const
+
+
+
+
+
+}
