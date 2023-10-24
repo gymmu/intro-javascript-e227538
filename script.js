@@ -51,5 +51,10 @@ function writeText(){
   myImage.src = "https://i.pinimg.com/236x/11/04/b6/1104b639719f8d29f61fac95947a7a0f.jpg"
   document.querySelector("#image").appendChild(myImage)
 
+}
+
+function range(start,end){
+
+
 
 }
